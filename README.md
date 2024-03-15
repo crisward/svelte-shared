@@ -18,3 +18,12 @@ npm run build
 ```
 npx serve
 ```
+
+## Notes
+
+Key things to note are
+
+* See index.html from the use of import maps, these link the import statements with the correct bits of code
+* See rollup.config.js to see how the bundles are created.
+
+Could probably move the svelte step to it's own rollup config and npm script as this only really needs to be done if svelte is updated.
