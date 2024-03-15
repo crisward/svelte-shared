@@ -2,4 +2,4 @@
   import {count} from "./store.js";
 </script>
 
-<h1>Count: {$count}</h1>
+<h2>Count: {$count}</h2>

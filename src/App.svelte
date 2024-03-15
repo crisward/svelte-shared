@@ -28,7 +28,6 @@
     display:inline-grid;
     padding:0.3em 0.8em;
     border:1px solid #444;
-
   }
   button{
     cursor: pointer;
