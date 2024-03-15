@@ -19,8 +19,8 @@ export default [
       manualChunks: undefined
     },
     plugins:[
-      svelte({ emitCss: false }),
-      css({ minify: true }),
+      svelte({ emitCss: true }),
+      css({ minify: true,output: 'index.css'}),
       resolve(),
       terser()
     ]
