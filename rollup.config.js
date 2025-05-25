@@ -37,7 +37,7 @@ export default [
       svelte({ emitCss: true }),
       css({ minify: true,output: 'index.css'}),
       resolve(),
-      // terser()
+      terser()
     ]
   },
   {
@@ -53,6 +53,6 @@ export default [
       chunkFileNames: '[name].js',
       // experimentalMinChunkSize: 10000
     },
-    plugins: [resolve({browser: true})],
+    plugins: [resolve({browser: true},terser())],
   }
 ];
