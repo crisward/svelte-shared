@@ -1,1 +1,1 @@
-export * from "svelte/internal"
+export * from "svelte/internal/client";
