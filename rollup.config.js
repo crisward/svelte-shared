@@ -6,8 +6,8 @@ import terser from '@rollup/plugin-terser';
 export default [
   {
     input:{
-      index:'./src/index.js',
-      another:'./src/another.js',
+      index1:'./src/index1.js',
+      index2:'./src/index2.js',
     },
     preserveEntrySignatures: 'strict',
     external: [
