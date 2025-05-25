@@ -10,7 +10,7 @@ Simple example app of how to build svelte so it can be linked to from separate p
 ## Setup
 
 ```
-git clone git@git.duodesign.co.uk:mess/svelte-shared.git
+git clone git@github.com:crisward/svelte-shared.git
 cd svelte-shared
 npm install
 npm run build
