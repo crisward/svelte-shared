@@ -2,7 +2,9 @@
 
 Simple example app of how to build svelte so it can be linked to from separate pre-bundled components.
 
-2 Entry points - index1.js and index2.js. To prove they're sharing a runtime I have a single store linking both counters.
+2 Entry points - `index1.js` and `index2.js`. To prove they're sharing a runtime I have a single store linking both counters. Also added a rune to the second component to ensure this is svelte5. 
+
+![](screen-grab.png)
 
 
 ## Setup
